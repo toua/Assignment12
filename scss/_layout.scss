@@ -1,0 +1,42 @@
+$radius: 20px;
+$smallradius: 10px;
+$mid: #3498DB;
+
+html {
+  background-color: #2C3E50; }
+  
+body	{
+	width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	img	{
+		width: 100%;
+	}
+}
+
+article	{
+		-webkit-border-radius: $radius;
+		-moz-border-radius: $radius;
+		-ms-border-radius: $radius;
+		border-radius: $radius;
+		
+		background-color: $mid;
+		padding: 20px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		
+	img	{
+		-webkit-border-radius: $radius;
+		-moz-border-radius: $radius;
+		-ms-border-radius: $radius;
+		border-radius: $radius;
+	}
+}
+
+section h1	{
+	-webkit-border-radius: $smallradius;
+	-moz-border-radius: $smallradius;
+	-ms-border-radius: $smallradius;
+	border-radius: $smallradius;
+}
+  

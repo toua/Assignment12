@@ -1,0 +1,16 @@
+$bodyFont: Times, serif;
+$headerFont: Helvetica, sans-serif;
+
+body	{
+	font-family: $bodyFont;
+	font-size: small;
+	h1, section h2, header nav	{
+		font-family: $headerFont;
+	}
+}
+
+footer	{
+	h1, h2	{
+		font-family: $headerFont;
+	}
+}
